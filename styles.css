@@ -17,3 +17,35 @@ footer{text-align:center;padding:70px 20px 105px;background:#080706;color:#aaa}f
 .hero{min-height:760px}.hero-overlay{background:linear-gradient(0deg,#090806 2%,#090806cc 45%,#0004)}.hero-content{padding:0 24px 100px}.hero h1{font-size:55px}.hero-content>p:not(.eyebrow){font-size:14px}.hero-actions{display:grid}.button{width:100%}
 .intro,.quote,.organic-story{grid-template-columns:1fr}.section{padding:78px 22px}.intro{gap:15px}.service-grid{grid-template-columns:1fr}.service-grid article{border-right:0;border-bottom:1px solid #ffffff18;padding:24px 4px}.gallery-grid{columns:2 145px;column-gap:8px}.gallery-item{margin-bottom:8px}.gallery-item img{min-height:150px}.gallery-item figcaption{display:none}.organic-story{min-height:0}.organic-story>img{height:480px}.quote{gap:35px}.quote-form{grid-template-columns:1fr}.quote-form>*{grid-column:1}.mobile-bar{display:grid;grid-template-columns:1fr 1fr;position:fixed;z-index:25;bottom:0;left:0;right:0;background:#080706;border-top:1px solid #cda85d66;padding-bottom:env(safe-area-inset-bottom)}.mobile-bar a{text-align:center;padding:17px 8px;text-transform:uppercase;letter-spacing:.12em;font-size:11px}.mobile-bar a:last-child{background:var(--gold);color:#111}.lightbox{padding:20px}.lightbox img{max-width:96vw;max-height:78vh}
 }
+
+/* July 2026 mobile reliability fixes */
+.brand{display:flex;align-items:center;flex:0 0 auto;position:relative;z-index:2}
+.brand img{width:210px;height:76px;object-fit:contain;filter:drop-shadow(0 2px 8px #000)}
+.nav-social{display:flex;gap:18px;color:var(--gold)}
+.nav-social a{touch-action:manipulation}
+footer img{width:240px;max-width:78vw}
+footer a{display:inline-flex;min-height:44px;align-items:center;padding:0 6px;touch-action:manipulation}
+
+@media(max-width:850px){
+  .site-header{height:92px;padding:8px 18px;background:#090806fa}
+  .brand img{width:225px;height:78px}
+  .menu-toggle{position:relative;z-index:3;flex:0 0 auto}
+  .nav{top:92px;max-height:calc(100svh - 92px);overflow:auto;gap:0;padding:20px 26px 30px}
+  .nav>a{width:100%;padding:16px 0;border-bottom:1px solid #ffffff18}
+  .nav-social{width:100%;gap:12px;padding:18px 0}
+  .nav-social a{flex:1;text-align:center;border:1px solid #cda85d66;padding:14px 8px;color:var(--gold)}
+  .nav-cta{box-sizing:border-box;text-align:center;margin-top:4px}
+
+  /* Use a true grid on phones so masonry columns cannot create blank areas. */
+  .gallery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;columns:auto;column-gap:0;align-items:stretch}
+  .gallery-item{margin:0;min-width:0;aspect-ratio:1/1;background:#d8d1c4}
+  .gallery-item img{width:100%;height:100%;min-height:0;object-fit:cover;object-position:center}
+  .gallery-item.hidden{display:none}
+}
+
+@media(max-width:430px){
+  .site-header{padding-left:12px;padding-right:12px}
+  .brand img{width:205px;height:74px}
+  .menu-toggle span{width:28px}
+  .gallery-section.section{padding-left:12px;padding-right:12px}
+}
