@@ -27,3 +27,11 @@ document.getElementById('quoteForm').addEventListener('submit',e=>{
  const body=encodeURIComponent(`Name: ${d.get('name')}\nEmail: ${d.get('email')}\nPhone: ${d.get('phone')||''}\nEvent date: ${d.get('date')||''}\nEvent type: ${d.get('type')||''}\nEstimated guests: ${d.get('guests')||''}\n\nVision / details:\n${d.get('details')||''}`);
  location.href=`mailto:capev.lkn@gmail.com?subject=${subject}&body=${body}`;
 });
+
+// Remove a gallery card if its image cannot load, preventing a blank tile.
+document.querySelectorAll('.gallery-item img').forEach(img=>{
+  img.addEventListener('error',()=>{
+    const card=img.closest('.gallery-item');
+    if(card) card.remove();
+  });
+});

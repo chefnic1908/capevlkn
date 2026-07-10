@@ -49,3 +49,9 @@ footer a{display:inline-flex;min-height:44px;align-items:center;padding:0 6px;to
   .menu-toggle span{width:28px}
   .gallery-section.section{padding-left:12px;padding-right:12px}
 }
+
+/* v9 mobile fixes: remove the apparent empty final gallery tile and stabilize logo rendering */
+@media (max-width:700px){
+  .gallery-grid .gallery-item:last-child:nth-child(odd){grid-column:1 / -1;aspect-ratio:2 / 1;}
+  .brand img, footer img{display:block;max-width:100%;}
+}
