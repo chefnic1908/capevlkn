@@ -1,0 +1,13 @@
+CAPE V OF LKN — FLAT PHOTO PACKAGE
+
+Upload EVERY file from this folder directly into the main level of your GitHub repository.
+
+Important:
+1. Do not upload the outer folder itself.
+2. Select all files inside this folder.
+3. Replace index.html, styles.css, script.js, logo.png and favicon.png.
+4. Upload all JPG photo files too.
+5. Commit changes.
+6. Wait 1–3 minutes, then refresh capevlkn.com.
+
+There is no assets folder in this version. All images are in the same location as index.html.
