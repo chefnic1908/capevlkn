@@ -55,3 +55,28 @@ footer a{display:inline-flex;min-height:44px;align-items:center;padding:0 6px;to
   .gallery-grid .gallery-item:last-child:nth-child(odd){grid-column:1 / -1;aspect-ratio:2 / 1;}
   .brand img, footer img{display:block;max-width:100%;}
 }
+
+/* v10 crisp compact logo */
+.brand{overflow:visible}
+.brand img{width:230px;height:auto;max-height:78px;object-fit:contain;object-position:left center}
+footer img{width:270px;height:auto}
+@media(max-width:850px){
+  .brand img{width:220px;height:auto;max-height:76px}
+}
+@media(max-width:430px){
+  .brand img{width:205px;height:auto;max-height:72px}
+}
+
+
+/* v12 refined luxury redesign */
+.site-header{background:linear-gradient(180deg,rgba(7,7,6,.98),rgba(7,7,6,.88) 72%,transparent);border-bottom:1px solid rgba(205,168,93,.12)}
+.brand img{width:260px;max-height:82px;object-fit:contain;object-position:left center}
+.hero-content{max-width:900px}.hero h1{letter-spacing:-.025em}.hero-content>p:not(.eyebrow){max-width:720px}
+.chef-story{display:grid;grid-template-columns:1fr 1fr;background:#f7f2e8;color:#171512;gap:0;padding:0}.chef-image-wrap{min-height:720px;overflow:hidden}.chef-image-wrap img{width:100%;height:100%;object-fit:cover}.chef-copy{padding:clamp(60px,8vw,120px);display:flex;flex-direction:column;justify-content:center}.chef-copy h2{font-family:"Cormorant Garamond",serif;font-size:clamp(56px,6vw,88px);line-height:.92;margin:20px 0 30px}.chef-copy p{line-height:1.95;color:#5c554a;font-size:15px}.chef-copy .lead{font-family:"Cormorant Garamond",serif;font-size:28px;line-height:1.35;color:#2b2822}.chef-signature{margin-top:32px;padding-top:25px;border-top:1px solid #cdbd9c;color:#9f7d37;text-transform:uppercase;letter-spacing:.18em;font-size:11px}
+.luxury-principles{background:#0b0a08}.principle-grid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid rgba(205,168,93,.35);border-bottom:1px solid rgba(205,168,93,.18)}.principle-grid article{padding:45px 42px;border-right:1px solid rgba(255,255,255,.12)}.principle-grid article:last-child{border-right:0}.principle-grid span{color:var(--gold);font-family:"Cormorant Garamond";font-size:22px}.principle-grid h3{font-family:"Cormorant Garamond";font-size:34px;font-weight:500;margin:18px 0 12px}.principle-grid p{color:#aaa;line-height:1.8;font-size:14px}
+.reviews{background:#efe7d8;color:#171512}.reviews .section-heading p:last-child{color:#756d61}.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1200px;margin:auto}.review-grid article{background:#fffaf1;padding:40px 34px;border:1px solid #d9c9aa;box-shadow:0 20px 50px rgba(45,35,20,.06)}.stars{color:#b88935;letter-spacing:.18em;font-size:13px}.review-grid p{font-family:"Cormorant Garamond";font-size:25px;line-height:1.45;margin:22px 0;color:#342f28}.review-grid span{font-size:10px;text-transform:uppercase;letter-spacing:.17em;color:#8d7a58}
+footer img{width:330px;max-width:88vw}
+@media(max-width:850px){
+ .brand img{width:235px;max-height:78px}.chef-story{grid-template-columns:1fr}.chef-image-wrap{min-height:440px}.chef-copy{padding:70px 24px}.chef-copy .lead{font-size:25px}.principle-grid,.review-grid{grid-template-columns:1fr}.principle-grid article{border-right:0;border-bottom:1px solid rgba(255,255,255,.12);padding:32px 4px}.review-grid{gap:12px}.review-grid article{padding:32px 25px}.review-grid p{font-size:23px}
+}
+@media(max-width:430px){.brand img{width:220px;max-height:76px}}
