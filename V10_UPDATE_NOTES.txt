@@ -1,0 +1,14 @@
+Cape V V10 Proposed Updates
+
+- Move 'Serving Lake Norman • Charlotte • Private Events' into darker hero area.
+- Restore 'Ocean & Seafood Specialists' subtitle.
+- Increase hero overlay for readability.
+- Brighten and sharpen lobster hero image.
+- Replace logo with highest resolution version.
+- Improve mobile spacing.
+- Update social links:
+  Facebook: Cape V Lkn
+  Instagram: https://instagram.com/capev.lkn
+  Threads: https://threads.net/@capev.lkn
+
+Note: This archive contains the current site plus update notes. The actual HTML/CSS/image edits still need to be applied to the website assets.
