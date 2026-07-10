@@ -1,13 +1,3 @@
-CAPE V OF LKN — PREMIUM VERSION 2 COMPLETE PACKAGE
+CAPE V OF LKN PREMIUM V4
 
-Upload ALL contents of this folder to the main/root level of the GitHub repository.
-
-Required root items:
-- index.html
-- styles.css
-- script.js
-- logo.png
-- favicon.png
-- assets folder
-
-Keep the assets folder intact. Then select Commit changes.
+Upload every file and folder inside this directory to the main level of your GitHub repository. Replace the existing files, keep the assets folder intact, then commit the changes.
