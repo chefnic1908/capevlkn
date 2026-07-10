@@ -1,10 +1,8 @@
-CAPE V OF LKN — LUXURY WEBSITE UPDATE
+CAPE V OF LKN — UPLOAD INSTRUCTIONS
 
-1. Unzip this file.
-2. Upload ALL files inside the folder to the main GitHub repository folder.
-3. Choose Replace/Overwrite for existing files.
-4. Make sure capev-logo-gold.png is uploaded.
-5. Commit the changes.
-6. Wait 2–5 minutes, then refresh capevlkn.com.
-
-The review cards are intentionally marked as placeholders. Replace them only with verified client reviews.
+1. Unzip this folder.
+2. In your GitHub repository, delete or replace the current website files.
+3. Upload every file inside this folder, including CNAME, index.html, styles.css, script.js, capev-logo-gold.png, favicon.png and all JPG images.
+4. Commit the changes.
+5. Allow GitHub Pages a few minutes to publish, then refresh capevlkn.com.
+6. On iPhone Safari, tap the page menu and reload without content blockers, or clear the site cache if an older version remains.
