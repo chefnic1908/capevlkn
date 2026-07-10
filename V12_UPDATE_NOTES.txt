@@ -1,0 +1,15 @@
+CAPE V V12 — CHARCUTERIE & GRAZING FIX
+
+This version now visibly includes:
+• Charcuterie & Grazing in the hero specialty line
+• Charcuterie & Grazing in the navigation
+• A dedicated Charcuterie & Grazing homepage section
+• A featured Charcuterie & Grazing image card
+• Five signature services:
+  1. Ocean & Seafood
+  2. Charcuterie & Grazing
+  3. Seasonal Salads
+  4. Gourmet Meal Prep
+  5. Luxury Catering
+
+Upload all files in this ZIP to the root of the GitHub website repository.
