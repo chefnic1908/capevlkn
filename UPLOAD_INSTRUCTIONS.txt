@@ -1,10 +1,9 @@
-CAPE V OF LKN — UPLOAD INSTRUCTIONS
+CAPE V OF LKN — FINAL LUXURY REDESIGN
 
-1. Unzip this download.
-2. Open your GitHub repository for capevlkn.com.
-3. Delete the old website files.
-4. Upload index.html and the entire assets folder.
-5. Commit the changes.
-6. Allow a few minutes for GitHub Pages to update.
+1. Unzip this folder.
+2. Upload every file inside the folder to the root of your GitHub Pages repository.
+3. Replace the existing files when prompted.
+4. Keep CNAME in the root so capevlkn.com remains connected.
+5. Commit the changes and allow GitHub Pages a few minutes to refresh.
 
-Important: keep the assets folder beside index.html exactly as provided.
+This package includes the luxury editorial layout, Cape V photography, Cape Verdean/New England brand story, working social links, responsive styling, and quote form behavior.
