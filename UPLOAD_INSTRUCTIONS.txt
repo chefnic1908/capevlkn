@@ -1,15 +1,9 @@
-CAPE V OF LKN — VERSION 10
+CAPE V OF LKN — FINAL LUXURY REDESIGN
 
-This package includes the finished website updates:
-• Brighter lobster hero image
-• Readable Lake Norman / Charlotte location line
-• Ocean & Seafood Specialists restored
-• Gourmet Meal Prep featured in the hero, image feature row, navigation and its own section
-• Instagram updated to @capev.lkn
-• Threads added as @capev.lkn
-• Social links open directly in a new tab
-• Improved mobile hero readability and spacing
+1. Unzip this folder.
+2. Upload every file inside the folder to the root of your GitHub Pages repository.
+3. Replace the existing files when prompted.
+4. Keep CNAME in the root so capevlkn.com remains connected.
+5. Commit the changes and allow GitHub Pages a few minutes to refresh.
 
-UPLOAD:
-Replace the files in your GitHub website repository with every file inside this folder.
-Keep index.html, styles.css, script.js, CNAME and all images together at the repository root.
+This package includes the luxury editorial layout, Cape V photography, Cape Verdean/New England brand story, working social links, responsive styling, and quote form behavior.
