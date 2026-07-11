@@ -1,16 +1,14 @@
-CAPE V OF LKN — PREMIUM WEBSITE VERSION 2
+CAPE V OF LKN — LUXURY REDESIGN
 
-UPLOAD THESE FILES TO THE ROOT OF YOUR GITHUB REPOSITORY:
-- index.html
-- styles.css
-- script.js
-- logo.png (keep your existing high-resolution transparent logo with this exact name)
-- favicon.png (keep your existing icon with this exact name)
+Upload index.html, styles.css and script.js to the root of your GitHub Pages repository, replacing the old files.
 
-IMPORTANT:
-This ZIP does not replace your logo.png or favicon.png. Keep the working logo.png and favicon.png already in your GitHub repository. Upload/replace index.html, styles.css, and script.js.
+This redesign includes:
+- New clean split hero with a brighter lobster treatment
+- Smaller side portrait beside Meet Chef Nic
+- Five services: Luxury Catering, Ocean & Seafood, Charcuterie & Grazing, Seasonal Salads, Meal Prep
+- Curated gallery with no repeated image tile
+- Reviews, quote form, contact details and working social links
+- Responsive desktop and mobile layouts
 
-The contact form opens an email addressed to capev.lkn@gmail.com.
-Phone: 704-430-1498
-Instagram: instagram.com/capevlkn
-Facebook: facebook.com/capevlkn
+IMPORTANT ABOUT PHOTOS:
+The package uses high-quality hosted editorial photos so it works immediately. To use your exact lobster and Chef Nic photos, replace the image URLs in styles.css under .hero-image and .chef-portrait with your uploaded image filenames, for example url('lobster.jpg') and url('chef-nic.jpg'). The lobster already has brightness, saturation and contrast adjustments applied.
