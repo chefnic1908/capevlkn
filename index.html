@@ -1,183 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Cape V of LKN provides luxury catering, private chef services, and gourmet organic cuisine throughout Lake Norman and Charlotte." />
-  <meta name="theme-color" content="#0b0a08" />
-  <title>Cape V of LKN | Luxury Catering & Private Chef</title>
-  <link rel="icon" href="favicon.png" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f6f1e8">
+  <meta name="description" content="Cape V of LKN blends Cape Verdean soul, New England coastal tradition and Lake Norman elegance through luxury catering, seafood, charcuterie, seasonal salads and chef-prepared meal prep.">
+  <title>Cape V of LKN | Luxury Catering & Seafood</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FoodEstablishment",
-    "name": "Cape V of LKN",
-    "description": "Luxury catering, private chef services, meal prep, and gourmet organic cuisine.",
-    "telephone": "+1-704-430-1498",
-    "email": "capev.lkn@gmail.com",
-    "url": "https://capevlkn.com",
-    "areaServed": ["Mooresville","Lake Norman","Cornelius","Huntersville","Davidson","Charlotte"],
-    "sameAs": [
-      "https://www.instagram.com/CapeV.lkn",
-      "https://www.facebook.com/CapeV.lkn"
-    ]
-  }
-  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header" id="top">
-    <a class="brand" href="#home" aria-label="Cape V of LKN home">
-      <img src="Logo.PNG" alt="Cape V of LKN logo" />
-    </a>
+<header class="header" id="top">
+  <a class="brand" href="#top" aria-label="Cape V of LKN home">
+    <img class="brand-logo" src="capev-emblem-clean.png" alt="Cape V emblem">
+    <span><b>Cape V of LKN</b><small>Gourmet Organic Cuisine</small></span>
+  </a>
+  <button class="menu" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+  <nav>
+    <a href="#chef">Chef Nic</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a>
+    <a class="nav-button" href="#contact">Request a Quote</a>
+  </nav>
+</header>
 
-    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
+<main>
+<section class="hero">
+  <div class="hero-copy reveal">
+    <p class="eyebrow">Lake Norman · Charlotte · Private Events</p>
+    <h1>Where coastal elegance meets<br><em>culinary excellence.</em></h1>
+    <p>Inspired by Cape Verdean heritage and Rhode Island seafood traditions, Chef Nic brings soulful island flavor, refined presentation and warm hospitality to Lake Norman.</p>
+    <div class="actions"><a class="button primary" href="#contact">Plan Your Experience</a><a class="button secondary" href="#gallery">View the Gallery</a></div>
+    <div class="hero-services">Luxury Catering <i></i> Ocean &amp; Seafood <i></i> Charcuterie &amp; Grazing <i></i> Seasonal Salads <i></i> Meal Prep <i></i> Private Chef Experiences</div>
+  </div>
+  <div class="hero-image reveal" role="img" aria-label="Bright gourmet lobster presentation"></div>
+</section>
 
-    <nav class="nav-links" aria-label="Main navigation">
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#reviews">Reviews</a>
-      <a href="#contact">Contact</a>
-      <a class="nav-cta" href="#quote">Request a Quote</a>
-    </nav>
-  </header>
+<section class="chef-section" id="chef">
+  <div class="chef-portrait reveal" role="img" aria-label="Chef Nic portrait"></div>
+  <div class="chef-copy reveal">
+    <p class="eyebrow">Meet Chef Nic</p>
+    <h2>From the Ocean State<br>to <em>Lake Norman.</em></h2>
+    <p class="lead">Chef Nic’s culinary style is rooted in the places and traditions that shaped her.</p>
+    <p>Raised with the vibrant flavors of her Cape Verdean heritage and inspired by Rhode Island’s seafood culture, she creates cuisine that is coastal, soulful and beautifully presented. Through Cape V of LKN, those influences come together with modern elegance—fresh New England seafood, Cape Verdean blends and spices, thoughtful detail and genuine hospitality.</p>
+    <p class="brand-line">Cape Verdean soul. New England coastal tradition. Lake Norman elegance.</p>
+    <span class="signature">Chef Nic</span>
+    <small>Founder &amp; Culinary Creative</small>
+  </div>
+</section>
 
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-shade"></div>
-      <div class="hero-content reveal">
-        <p class="eyebrow">Lake Norman's Luxury Culinary Experience</p>
-        <img class="hero-logo" src="Logo.PNG" alt="Cape V of LKN Gourmet Organic Cuisine" />
-        <h1>Gourmet organic cuisine for unforgettable occasions.</h1>
-        <p class="hero-copy">Elegant presentation, customized menus, and personal service for intimate gatherings, celebrations, corporate events, and private dining.</p>
-        <div class="hero-actions">
-          <a class="button button-gold" href="#quote">Plan Your Experience</a>
-          <a class="button button-ghost" href="tel:7044301498">Call 704-430-1498</a>
-        </div>
-      </div>
-      <a class="scroll-cue" href="#services" aria-label="Scroll to services">Scroll</a>
-    </section>
+<section class="services section" id="services">
+  <div class="section-heading reveal"><p class="eyebrow">Signature Experiences</p><h2>Six signature ways to experience Cape V</h2><p>Distinctive food, thoughtful details and service tailored to your occasion.</p></div>
+  <div class="service-grid">
+    <article class="service-card reveal"><div class="service-photo p1"></div><div><span>01</span><h3>Luxury Catering</h3><p>Elegant menus and polished presentation for celebrations, weddings and private gatherings.</p></div></article>
+    <article class="service-card reveal"><div class="service-photo p2"></div><div><span>02</span><h3>Ocean &amp; Seafood</h3><p>Signature seafood experiences featuring bright flavors, premium ingredients and refined plating.</p></div></article>
+    <article class="service-card reveal"><div class="service-photo p3"></div><div><span>03</span><h3>Charcuterie &amp; Grazing</h3><p>Abundant, artfully styled boards and grazing displays designed to impress your guests.</p></div></article>
+    <article class="service-card reveal"><div class="service-photo p4"></div><div><span>04</span><h3>Seasonal Salads</h3><p>Fresh, colorful compositions layered with premium produce, herbs and house-made touches.</p></div></article>
+    <article class="service-card reveal"><div class="service-photo p5"></div><div><span>05</span><h3>Meal Prep</h3><p>Chef-prepared meals with variety, freshness and elevated flavor for your weekly routine.</p></div></article>
+    <article class="service-card reveal"><div class="service-photo p6"></div><div><span>06</span><h3>Private Chef Experiences</h3><p>Intimate in-home dining with a custom menu, refined presentation and attentive service created exclusively for your guests.</p></div></article>
+  </div>
+</section>
 
-    <section class="service-strip" id="services">
-      <div class="section-heading reveal">
-        <p class="eyebrow">Our Services</p>
-        <h2>Catering for every moment that matters</h2>
-      </div>
-      <div class="service-grid">
-        <article class="service-card reveal"><span>01</span><h3>Event Catering</h3><p>Beautifully curated menus and polished service for weddings, celebrations, and special events.</p></article>
-        <article class="service-card reveal"><span>02</span><h3>Private Chef</h3><p>A restaurant-quality dining experience created and served in the comfort of your home or venue.</p></article>
-        <article class="service-card reveal"><span>03</span><h3>Corporate Events</h3><p>Professional catering for meetings, launches, client dinners, and company celebrations.</p></article>
-        <article class="service-card reveal"><span>04</span><h3>Meal Prep</h3><p>Fresh, flavorful meals designed around your preferences, schedule, and lifestyle.</p></article>
-      </div>
-    </section>
+<section class="standard">
+  <div class="section-heading reveal"><p class="eyebrow">The Cape V Story</p><h2>Heritage, hospitality and heart</h2><p>Every experience reflects Chef Nic’s Cape Verdean roots, Rhode Island seafood traditions and passion for creating food that feels both soulful and refined.</p></div>
+  <div class="standard-grid">
+    <div><b>Seasonal Ingredients</b><span>Selected for freshness, color and flavor.</span></div>
+    <div><b>Custom Menus</b><span>Composed around your event and preferences.</span></div>
+    <div><b>Elegant Presentation</b><span>Every display and plate is styled with intention.</span></div>
+    <div><b>Warm Hospitality</b><span>Professional, personal service from beginning to end.</span></div>
+  </div>
+</section>
 
-    <section class="about" id="about">
-      <div class="about-photo reveal" role="img" aria-label="Elegant gourmet plated dish"></div>
-      <div class="about-copy reveal">
-        <p class="eyebrow">The Cape V Experience</p>
-        <h2>Passion. Creativity. <em>Purpose.</em></h2>
-        <p>Cape V of LKN brings together fresh ingredients, bold flavor, refined presentation, and attentive service. Every menu is thoughtfully tailored to your event, your guests, and your vision.</p>
-        <div class="feature-list">
-          <div><strong>Fresh ingredients</strong><span>Seasonal, thoughtfully selected, and beautifully prepared.</span></div>
-          <div><strong>Customized menus</strong><span>Designed around your taste, theme, dietary needs, and budget.</span></div>
-          <div><strong>Impeccable presentation</strong><span>Food that looks as memorable as it tastes.</span></div>
-        </div>
-      </div>
-    </section>
+<section class="gallery section" id="gallery">
+  <div class="section-heading reveal"><p class="eyebrow">Curated Gallery</p><h2>A feast for every sense</h2></div>
+  <div class="gallery-grid">
+    <figure class="g1 reveal"></figure><figure class="g2 reveal"></figure><figure class="g3 reveal"></figure><figure class="g4 reveal"></figure><figure class="g5 reveal"></figure><figure class="g6 reveal"></figure>
+  </div>
+</section>
 
-    <section class="gallery-section" id="gallery">
-      <div class="section-heading reveal">
-        <p class="eyebrow">Gourmet Creations</p>
-        <h2>A feast for every sense</h2>
-      </div>
-      <div class="gallery-grid">
-        <figure class="gallery-item large reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1400&q=85" alt="Elegant restaurant-style plated meal"></figure>
-        <figure class="gallery-item reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85" alt="Fresh colorful gourmet dish"></figure>
-        <figure class="gallery-item reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1000&q=85" alt="Shared table of fresh dishes"></figure>
-        <figure class="gallery-item reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=1000&q=85" alt="Organic salad with fresh ingredients"></figure>
-        <figure class="gallery-item reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1000&q=85" alt="Elegant dining table setting"></figure>
-      </div>
-      <p class="gallery-note">Your own Cape V food photographs can replace these sample images at any time.</p>
-    </section>
+<section class="reviews" id="reviews">
+  <div class="section-heading reveal"><p class="eyebrow">Kind Words</p><h2>Hospitality remembered</h2></div>
+  <div class="review-grid">
+    <blockquote class="reveal"><div>★★★★★</div><p>“The presentation was beautiful, the flavors were exceptional, and every detail felt special.”</p><cite>Private Event Client</cite></blockquote>
+    <blockquote class="reveal"><div>★★★★★</div><p>“Professional, creative and attentive from beginning to end. Our guests are still talking about the food.”</p><cite>Lake Norman Client</cite></blockquote>
+    <blockquote class="reveal"><div>★★★★★</div><p>“A truly elevated dining experience that felt personal, elegant and completely effortless.”</p><cite>Private Chef Client</cite></blockquote>
+  </div>
+</section>
 
-    <section class="reviews" id="reviews">
-      <div class="section-heading reveal">
-        <p class="eyebrow">Guest Experience</p>
-        <h2>Made to feel exceptional</h2>
-      </div>
-      <div class="review-grid">
-        <blockquote class="reveal">“Every detail felt thoughtful, elegant, and effortless—from the menu to the presentation.”<cite>Private Dining Guest</cite></blockquote>
-        <blockquote class="reveal">“The food was beautiful, flavorful, and the highlight of our celebration.”<cite>Lake Norman Client</cite></blockquote>
-        <blockquote class="reveal">“Professional service and a customized experience our guests will remember.”<cite>Event Host</cite></blockquote>
-      </div>
-    </section>
+<section class="contact" id="contact">
+  <div class="contact-copy reveal"><p class="eyebrow">Plan Your Experience</p><h2>Let’s create something <em>extraordinary.</em></h2><p>Tell Chef Nic about your event, guest count and culinary vision.</p><div class="details"><a href="tel:+17044301498">704-430-1498</a><a href="mailto:capev.lkn@gmail.com">capev.lkn@gmail.com</a><span>Mooresville · Lake Norman · Cornelius · Huntersville · Davidson · Charlotte</span></div></div>
+  <form id="quoteForm" class="reveal">
+    <label>Name<input name="name" required></label><label>Email<input name="email" type="email" required></label><label>Phone<input name="phone" type="tel"></label><label>Event Date<input name="date" type="date"></label><label>Service<select name="service"><option>Luxury Catering</option><option>Ocean & Seafood</option><option>Charcuterie & Grazing</option><option>Seasonal Salads</option><option>Meal Prep</option><option>Private Chef Experiences</option></select></label><label>Guest Count<input name="guests" type="number" min="1"></label><label class="wide">Tell us about your vision<textarea name="details" rows="5"></textarea></label><button class="button primary wide" type="submit">Request a Custom Quote</button>
+  </form>
+</section>
+</main>
 
-    <section class="quote-section" id="quote">
-      <div class="quote-intro reveal">
-        <p class="eyebrow">Request a Quote</p>
-        <h2>Let’s create something unforgettable.</h2>
-        <p>Tell us about your occasion. Submitting this form opens a pre-addressed email to Cape V of LKN with your event details.</p>
-        <div class="direct-contact">
-          <a href="tel:7044301498">704-430-1498</a>
-          <a href="mailto:capev.lkn@gmail.com">capev.lkn@gmail.com</a>
-        </div>
-      </div>
-
-      <form class="quote-form reveal" id="quoteForm">
-        <label>Full name<input name="name" type="text" required autocomplete="name"></label>
-        <label>Email address<input name="email" type="email" required autocomplete="email"></label>
-        <label>Phone number<input name="phone" type="tel" autocomplete="tel"></label>
-        <div class="form-row">
-          <label>Event date<input name="date" type="date"></label>
-          <label>Guest count<input name="guests" type="number" min="1" placeholder="25"></label>
-        </div>
-        <label>Service
-          <select name="service">
-            <option>Event Catering</option>
-            <option>Private Chef</option>
-            <option>Corporate Event</option>
-            <option>Meal Prep</option>
-            <option>Other</option>
-          </select>
-        </label>
-        <label>Tell us about your event<textarea name="details" rows="5" required placeholder="Location, occasion, menu ideas, dietary needs, and any other details..."></textarea></label>
-        <button class="button button-gold" type="submit">Create Quote Email</button>
-        <p class="form-status" id="formStatus" aria-live="polite"></p>
-      </form>
-    </section>
-
-    <section class="location" id="contact">
-      <div class="location-copy reveal">
-        <p class="eyebrow">Serving the Lake Norman Area</p>
-        <h2>Local service. Elevated experience.</h2>
-        <p>Mooresville · Lake Norman · Cornelius · Huntersville · Davidson · Charlotte</p>
-        <div class="social-links">
-          <a href="https://www.instagram.com/CapeV.lkn" target="_blank" rel="noopener">Instagram</a>
-          <a href="https://www.facebook.com/CapeV.lkn" target="_blank" rel="noopener">Facebook</a>
-        </div>
-      </div>
-      <iframe
-        title="Map of Lake Norman, North Carolina"
-        src="https://www.google.com/maps?q=Lake+Norman,+North+Carolina&output=embed"
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
-    </section>
-  </main>
-
-  <footer>
-    <img src="Logo.PNG" alt="Cape V of LKN logo">
-    <p>Luxury Catering · Private Chef · Meal Prep</p>
-    <p><a href="tel:7044301498">704-430-1498</a> · <a href="mailto:capev.lkn@gmail.com">capev.lkn@gmail.com</a></p>
-    <p class="copyright">© 2026 Cape V of LKN. All rights reserved.</p>
-  </footer>
-
-  <script src="script.js"></script>
+<footer>
+  <div class="footer-brand"><img class="footer-logo" src="capev-logo-gold.png" alt="Cape V of LKN"><b>Cape V of LKN</b><small>Gourmet Organic Cuisine</small></div>
+  <p>Luxury Catering · Ocean &amp; Seafood · Charcuterie &amp; Grazing · Seasonal Salads · Meal Prep · Private Chef Experiences</p>
+  <div class="social" aria-label="Cape V social media links"><a href="https://www.facebook.com/cape.v.lkn" target="_blank" rel="noopener noreferrer" aria-label="Visit Cape V LKN on Facebook">Facebook</a><a href="https://www.instagram.com/capev.lkn/" target="_blank" rel="noopener noreferrer" aria-label="Visit @capev.lkn on Instagram">Instagram</a><a href="https://www.threads.net/@capev.lkn" target="_blank" rel="noopener noreferrer" aria-label="Visit @capev.lkn on Threads">Threads</a></div>
+  <p class="footer-signature">Cape Verdean soul. New England coastal tradition. Lake Norman elegance.</p>
+  <small>© 2026 Cape V of LKN. All rights reserved.</small>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
