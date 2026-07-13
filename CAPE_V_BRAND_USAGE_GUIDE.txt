@@ -1,0 +1,40 @@
+CAPE V OF LKN — BRAND MASTER COLLECTION
+========================================
+
+Primary website replacement
+---------------------------
+Use: brand_master/capev-logo-gold.png
+The updated website folder already contains this file under the exact filename
+used by index.html, so no HTML change is required.
+
+Included assets
+---------------
+• CapeV_Master_Logo_Gold_Transparent_3200px.png
+• capev-logo-gold.png — web-optimized replacement
+• capev-logo-header.png
+• capev-logo-footer.png
+• CapeV_CV_Monogram_Gold_Transparent.png
+• Black and white transparent versions
+• Favicon sizes: 16, 32, 48, 180, 192 and 512 px
+• Updated complete website package
+
+Recommended use
+---------------
+• Footer: capev-logo-gold.png or capev-logo-footer.png
+• Header: capev-logo-header.png
+• Social profile / icon: CapeV_CV_Monogram_Gold_Transparent.png
+• Browser icon: favicon.png
+• Print / large format: CapeV_Master_Logo_Gold_Transparent_3200px.png
+
+Color reference
+---------------
+Primary gold: #CD972B
+Deep gold:    #673B08
+Highlight:    #FFE084
+Black:        #0F0F0F
+White:        #FFFFFF
+
+Important
+---------
+Keep the logo proportional. Do not stretch it wider or taller independently.
+For the cleanest website display, use CSS width with height:auto.
