@@ -136,3 +136,7 @@
 .meal-prep-closing p{margin:0;font:italic 27px/1.55 "Cormorant Garamond",serif;color:var(--navy)}
 @media(max-width:900px){.meal-prep-gallery{grid-template-columns:1fr 1fr;grid-template-rows:540px 340px}.meal-prep-gallery .meal-prep-tall{grid-column:1/3;grid-row:auto}.meal-prep-feature{padding:100px 6vw}}
 @media(max-width:640px){.meal-prep-feature{padding:85px 6vw}.meal-prep-heading{margin-bottom:42px}.meal-prep-heading h2{font-size:47px}.meal-prep-tagline{font-size:23px}.meal-prep-gallery{display:grid;grid-template-columns:1fr;grid-template-rows:none;gap:14px}.meal-prep-gallery .meal-prep-tall{grid-column:auto}.meal-prep-gallery figure,.meal-prep-gallery .meal-prep-tall{height:390px}.meal-prep-gallery figcaption{left:20px;right:20px;bottom:20px}.meal-prep-gallery figcaption strong{font-size:28px}.meal-prep-closing{margin-top:36px;padding:25px 12px}.meal-prep-closing p{font-size:23px}}
+
+/* Signature Edition: final coastal and private-chef image framing */
+.experience-card:first-child img{object-position:center center;}
+.experience-card:nth-child(2) img{object-position:center center;}
