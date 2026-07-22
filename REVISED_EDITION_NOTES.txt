@@ -1,0 +1,11 @@
+CAPE V OF LKN — SIGNATURE EDITION REVISED
+
+Refinements completed:
+- Replaced the homepage grazing/charcuterie hero with the signature surf-and-turf plated entrée.
+- Updated the hero headline to: “Where coastal elegance meets culinary excellence.”
+- Preserved: “Inspired by the ocean. Crafted with passion. Served with elegance.”
+- Moved the former hero grazing image into the Grazing & Charcuterie experience card.
+- Refined the mobile hero crop, overlay, text placement, and bottom spacing so calls-to-action remain visible above the iPhone browser controls.
+- Preserved the existing portrait, coastal catering, private-chef, meal-prep, portfolio, dessert, contact, logo, and social-link structure.
+
+Upload the contents of the website folder to the site repository, replacing the prior files.
