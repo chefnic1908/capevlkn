@@ -140,3 +140,12 @@
 /* Signature Edition: final coastal and private-chef image framing */
 .experience-card:first-child img{object-position:center center;}
 .experience-card:nth-child(2) img{object-position:center center;}
+
+
+/* Cape V QR code */
+.footer-qr{display:flex;align-items:center;justify-content:center;gap:16px;margin:22px auto 24px;}
+.footer-qr img{width:132px;height:132px;object-fit:contain;background:#fff;padding:7px;border-radius:4px;}
+.footer-qr p{margin:0;text-align:left;display:flex;flex-direction:column;gap:5px;}
+.footer-qr strong{font-family:inherit;letter-spacing:.08em;text-transform:uppercase;}
+.footer-qr span{opacity:.8;font-size:.9rem;}
+@media(max-width:600px){.footer-qr{flex-direction:column;gap:10px}.footer-qr p{text-align:center}.footer-qr img{width:118px;height:118px}}
